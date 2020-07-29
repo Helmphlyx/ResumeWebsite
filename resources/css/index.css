@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#navbar{
+  position: fixed;
+
+  width: 100%;
+  height:10%;
+
+  border-bottom: 2px solid blue;
+  background-color: white;
+
+  margin: 0 auto;
+  overflow: hidden;
+
+  opacity: 95%;
+}
+
+
+#navbar ul{
+  list-style: none;
+  text-align: center;
+}
+
+#navbar ul li{
+  display: inline-block;
+  vertical-align: top;
+
+  background-color: white;
+  color: black;
+  font-family: Helvetica;
+
+  margin: 0;
+  padding: 0.5rem;
+}
+
+#navbar ul li a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  color: black;
+}
+
+#truong{
+  font-weight: bold;
+  font-family: Georgia;
+}
+
+
+#me{
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+
+  background-color: red;
+  background-image: url('BrendanTruong_head.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  color: white;
+  font-size: 50px;
+  font-family: Helvetica;
+}
+
+#main_part{
+  font-weight: bold;
+  font-size: 250rem;
+
+}
+
+
+#cost{
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
+
+.resume-picture{
+  max-width: 95%;
+  max-height: 95%;
+}
+
+footer{
+  background-color: gray;
+  color: white;
+  text-align: center;
+  height: 25%;
+  width: 100%;
+}
+
+body{
+  width: 100%;
+  background-color: beige;
+}
+
+.resume-header{
+  float: left;
+  width: 33%;
+  height:33%;
+
+}
+
+.resume-content{
+  float: left;
+  width: 33%;
+  height:33%;
+
+}
+
+.experience-row{
+ content: "";
+ display: table;
+ clear: both;
+ margin: 0 33%;
+}
+
+.resume-pic{
+  float:left;
+  width:33%;
+  height:33%;
+}
+
+.resume-header{
+  text-align: center;
+  float: left;
+}
+
+.linkedin{
+  content: "";
+  display: table;
+  clear: both;
+  margin: 0 25%;
+}
+
+.linkedin img{
+  width: 100%;
+}
+
+footer a{
+  color: DarkSeaGreen;
+  text-decoration: none;
+}
